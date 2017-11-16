@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/branchName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Business Name"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tempor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/branchName"
+        android:layout_alignLeft="@+id/branchName"
+        android:layout_alignRight="@+id/branchName"
+        android:layout_alignStart="@+id/branchName"
+        android:layout_below="@+id/branchName"
+        android:text="Lorem"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tempor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/tempor"
+        android:layout_below="@+id/tempor"
+        android:text="Ipsum"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/branchName"
+        android:layout_alignLeft="@+id/detail"
+        android:layout_alignRight="@+id/branchName"
+        android:layout_alignStart="@+id/detail"
+        android:layout_below="@+id/detail"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="@color/greenSea"
+        android:progress="75" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="REFER"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

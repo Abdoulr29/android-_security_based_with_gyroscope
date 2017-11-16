@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Prototype</string>
+    <string-array name="category">
+        <item>Choose Category</item>
+        <item>Coffee</item>
+        <item>Pizza</item>
+        <item>Tea</item>
+        <item>Soda</item>
+        <item>Beer</item>
+        <item>Wine</item>
+        <item>Food</item>
+
+    </string-array>
+    <string name="title_activity_drawer">Drawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
